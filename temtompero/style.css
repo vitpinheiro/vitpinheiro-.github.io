@@ -1,0 +1,97 @@
+body, html {
+
+    font-family: Roboto;
+}
+
+.navbar {
+    background-color: #EEA948;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.form-control{
+    width: 400px;
+    border-radius: 50em;
+}
+
+.position-absolute {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.img-responsive {
+    position: relative;
+}
+
+.ultimasreceitas {
+    background-color: #F6F2CD;
+    padding: 20px;
+    text-align: center; 
+}
+
+.ultimasreceitas h2 {
+    color: #FF5722;
+    margin-top: 20px; 
+}
